@@ -633,6 +633,7 @@ header
     box-shadow: none;
     text-align: center;
   }
+
   .header-area .container {
     padding: 0px;
   }
@@ -728,10 +729,10 @@ welcome
   height: 100vh;
   min-height: 700px;
 
-  background-size: 360px 360px;
+  background-size: 400px 400px;
   background-image: url(../images/bg.png);
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: 85% 15%;
 }
 
 .welcome-area .header-text .left-text {
@@ -830,7 +831,7 @@ about
 }
 
 .features-item {
-  border-radius: 5px;
+  border-radius: 30px;
   padding: 60px 30px;
   text-align: center;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);

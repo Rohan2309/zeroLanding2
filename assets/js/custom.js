@@ -205,7 +205,15 @@
 		});
 	}
 
-
+	$(document).ready(function() {
+		$('#autoWidth').lightSlider({
+			autoWidth:true,
+			loop:true,
+			onSliderLoad: function() {
+				$('#autoWidth').removeClass('cS-hidden');
+			} 
+		});  
+	  });
 	// Page loading animation
 	$(window).on('load', function () {
 		if ($('.cover').length) {
