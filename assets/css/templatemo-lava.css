@@ -788,8 +788,10 @@ welcome
     height: auto;
   }
   .welcome-area .header-text {
-    width: 92%;
+    width: 80%;
     padding-top: 793px;
+    margin-top: 15%;
+    margin-left: 50;
   }
   .welcome-area .header-text .left-text {
     margin-top: 5%;
@@ -802,8 +804,8 @@ welcome
   }
 
   .welcome-area .header-text {
-    padding-top: 100%;
-    margin-left: 0;
+    padding-top: 120%;
+    margin-left: 20;
   }
 
   .container-fluid .col-md-12 {
@@ -819,14 +821,14 @@ about
 */
 
 #about {
-  padding: 100px 0px;
+  padding: 60px 0px;
   position: relative;
   z-index: 9;
 }
 
 @media (max-width: 992px) {
   .features-item {
-    margin-bottom: 45px;
+    margin-bottom: 10px;
   }
 }
 
@@ -882,7 +884,7 @@ promotion
 }
 
 #promotion {
-  padding: 100px 0px;
+  padding: 50px 0px;
 }
 
 #promotion .left-image {
@@ -932,7 +934,7 @@ testimonials
 }
 
 #testimonials {
-  padding-top: 100px;
+  padding-top: 80px;
   position: relative;
   z-index: 9;
 }
@@ -949,9 +951,9 @@ testimonials
     rgb(7, 126, 60) 100%
   );
   margin-left: 60px;
-  padding: 50px 30px;
+  padding: 30px 30px;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 
 #testimonials .item .testimonial-content ul li {
@@ -984,8 +986,8 @@ testimonials
 }
 
 #testimonials .author img {
-  max-width: 120px;
-  margin-bottom: -60px;
+  max-width: 100px;
+  margin-bottom: -50px;
 }
 
 .owl-carousel .owl-nav button.owl-next span {
@@ -1059,7 +1061,7 @@ footer
 }
 
 footer {
-  margin-top: 200px;
+  margin-top: 100px;
   padding-top: 120px;
   background: rgb(55, 233, 114);
   background: linear-gradient(
@@ -1081,7 +1083,7 @@ footer .footer-content {
   position: relative;
   z-index: 10;
   padding: 45px;
-  border-radius: 5px;
+  border-radius: 35px;
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -1164,7 +1166,7 @@ footer .right-content {
 
 footer .social {
   overflow: hidden;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 footer .social li:first-child {
@@ -1172,7 +1174,7 @@ footer .social li:first-child {
 }
 
 footer .social li {
-  margin: 0px 7.5px;
+  margin: 0px 0px;
   display: inline-block;
 }
 
