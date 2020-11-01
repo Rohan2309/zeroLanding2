@@ -785,6 +785,7 @@ welcome
 
 @media (max-width: 1140px) {
   .welcome-area {
+    background-size: 300px 300px;
     height: auto;
   }
   .welcome-area .header-text {
@@ -800,11 +801,13 @@ welcome
 }
 @media (max-width: 810px) {
   .welcome-area {
+    background-position: top center;
+    background-size: 200px 200px;
     background-size: contain;
   }
 
   .welcome-area .header-text {
-    padding-top: 120%;
+    padding-top: 100%;
     margin-left: 20;
   }
 
